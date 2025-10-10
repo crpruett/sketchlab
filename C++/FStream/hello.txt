@@ -1,0 +1,5 @@
+Wri5te a pr21ogram in yo8ur f	avorite lan	33guage that will:
+if no command line parameter read from stdin.
+if command line parameter, check that it is a filename and then open it and read from it.
+Count the number of [digits, alpha-ch2aracters, linef9eeds and sp14aces]. Count tabs as 4 spaces. Ignore the carriage returns.
+Issue a re88port.

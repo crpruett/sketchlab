@@ -1,0 +1,47 @@
+public class Circle implements Comparable{
+//Data Members
+  private double radius = 1;
+  static int numberOfObjects;
+  //Operations on Data Members
+       //Constructors
+              //Default Constructors
+    public Circle(){
+      numberOfObjects++;
+    }
+//Constructors with Parameters
+    public Circle(double r){
+      numberOfObjects++;
+     this.radius = r;      
+    }//Constructors with Copy Constructor
+    public Circle(Circle C){
+      numberOfObjects++;
+      this.radius = C.radius;
+    }
+    //Accessor Method
+    public double get_radius(){
+      return radius;
+    }
+  
+    //Mutator Method
+    public void change_radius(double newRadius){
+      radius=newRadius;
+    }
+    //To String Method
+    public String toString(){
+      return ("Radius is equal to "+radius+"\t"+ "and the area is " + compute_area());
+      
+    }
+    public double compute_area(){
+      return (Math.PI)*(Math.pow(radius,2));
+    }
+    public int compareTo(Object o){
+      if(radius > ((Circle)o).radius)
+        return 1;
+      
+      else if(radius < ((Circle)o).radius)
+        return -1;
+      
+      else
+        return 0;
+    }
+}//End Circle. P.S. For additional help, look to chapter 7

@@ -1,0 +1,12 @@
+public class ChrisLibrary{    
+  
+  public static Comparable max (Comparable object1, Comparable object2){
+      //If 'object1' is greater, return 'object2'.
+      if (object1.compareTo(object2) > 0)
+        return object1;
+      //Else return 'object2'.
+      else 
+        return object2;
+  }//End method max.
+   
+}//End JeremyGLibrary

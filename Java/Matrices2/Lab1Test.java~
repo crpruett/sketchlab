@@ -1,0 +1,10 @@
+ // Chris Pruett ~ Lab 1
+public class Lab1Test {
+    //This(main) method is the main method that calls other methods.
+public static void main(String[] args)throws Exception{
+    Matrix m = new Matrix();
+    m.Multiply();
+    m.Output();
+
+}
+}

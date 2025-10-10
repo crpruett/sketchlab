@@ -1,0 +1,45 @@
+import java.util.Scanner;
+public class MeganLab10 {
+  public static void main(String[] args){
+    Scanner get= new Scanner(System.in);
+    System.out.println("Please enter the radius for Circle A");
+    double a = get.nextDouble();
+     System.out.println("Please enter the radius for Circle B");
+    double b = get.nextDouble();
+    
+    Circle A = new Circle(a);
+    Circle B = new Circle(b);
+    System.out.println("Circle A: "+ A);
+    System.out.println("Circle B: "+ B);
+    // Declare an array of Circles 
+    System.out.println("How many circles do you want");
+    int size = get.nextInt();
+    Circle[] Carray = new Circle[size];
+    double[] Darray = new double[20];
+    
+    
+    
+    if (A.compareTo(B)>0)
+      System.out.println("Circle A is greater then Circle B");
+    else if (A.compareTo(B)<0)
+       System.out.println("Circle B is greater then Circle A");
+    else 
+       System.out.println("Circle A is equal to Circle B");
+    
+    Circle C = new Circle();
+    //C = ParthLibrary.max(A, B);
+    //System.out.println("The larger of 2 circles is: " + C);
+    System.out.println("The larger of 2 circles is: " + ParthLibrary.max(A, B));
+    
+    ParthLibrary.get_array_of_Circles(Carray);
+    ParthLibrary.print_array_of_objects(Carray);
+ 
+    size =  ParthLibrary.GetArrayFromFile(Darray);
+    ParthLibrary.print_array_of_doubles(Darray, size);
+    
+  }//close main
+  
+  
+  
+  
+}//end MeganLab9
