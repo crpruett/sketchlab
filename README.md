@@ -106,15 +106,14 @@ I enjoy that I can use it for practically everything and it's what I've learned 
 <!--START_SECTION:waka-->
 
 ```rust
-From: 08 October 2025 - To: 09 October 2025
+From: 08 October 2025 - To: 10 October 2025
 
-Total Time: 19 mins
+Total Time: 2 hrs 51 mins
 
-Vue.js       11 mins         >>>>>>>>>>>>>>>----------   60.66 %
-HTML         3 mins          >>>>>--------------------   18.65 %
-Git Config   1 min           >>-----------------------   08.93 %
-PowerShell   1 min           >>-----------------------   07.45 %
-JavaScript   0 secs          -------------------------   00.67 %
+HTML         1 hr 26 mins    >>>>>>>>>>>>-------------   49.47 %
+Vue.js       40 mins         >>>>>>-------------------   23.19 %
+JavaScript   19 mins         >>>----------------------   11.35 %
+Other        3 mins          -------------------------   01.89 %
 ```
 
 <!--END_SECTION:waka-->
