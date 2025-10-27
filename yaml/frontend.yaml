@@ -2,18 +2,18 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: ginrai
-  name: ginrai
+    app: frontend
+  name: frontend
 spec:
   replicas: 10
   selector:
     matchLabels:
-      app: ginrai
+      app: frontend
   strategy: {}
   template:
     metadata:
       labels:
-        app: ginrai
+        app: frontend
     spec:
       containers:
         - image: httpd:alpine3.19
