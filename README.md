@@ -10,7 +10,12 @@ DevOps Engineer, Cloud Native Engineer, command line junkie. I work mainly with 
 
 My pride and joy. Enterprise grade security in my basement with Talos Linux and FluxCD.
 
+### Arch Linux Bare-Metal 
 
+I love learning Linux through Arch, and have since it came out. Encrypted via  LuKS/LVM, Hyprland, Hyprlock/idle, qutebrowser, and my favorite tools pulled from my dotfiles for local and DevPod configurations. 
+
+### Rasberry Pi Tv Station setup for my son
+All the classic cartoons and controlled throuhg RF app from phone or SSH from remote system on locally secured network. 
 
 ## Microsoft Azure
 
