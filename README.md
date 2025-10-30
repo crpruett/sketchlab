@@ -111,12 +111,12 @@ I enjoy that I can use it for practically everything and it's what I've learned 
 <!--START_SECTION:waka-->
 
 ```rust
-From: 08 October 2025 - To: 26 October 2025
+From: 08 October 2025 - To: 29 October 2025
 
-Total Time: 9 hrs 10 mins
+Total Time: 9 hrs 15 mins
 
-PowerShell   3 hrs 50 mins   >>>>>>>>>----------------   34.14 %
-Other        2 hrs 4 mins    >>>>>--------------------   18.39 %
+PowerShell   3 hrs 50 mins   >>>>>>>>-----------------   33.98 %
+Other        2 hrs 4 mins    >>>>>--------------------   18.25 %
 ```
 
 <!--END_SECTION:waka-->
