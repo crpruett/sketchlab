@@ -23,3 +23,10 @@ spec:
           #- image: nginx
           #name: nginx
           #ports: 8080 #setting different container port
+          volumeMounts:
+            - mountPath: /app/data
+              name: mealie-data
+      volumes:
+        - name: mealie-data
+          persistentVolumeClaim:
+            claimName: mealie-data
