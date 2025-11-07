@@ -32,8 +32,8 @@ I enjoy that I can use it for practically everything and it's what I've learned 
 ## Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [The Art of Crafting](https://ginraidevops.substack.com/p/the-art-of-crafting)
 - [The Point](https://ginraidevops.substack.com/p/the-point)
-- [Coming soon](https://ginraidevops.substack.com/p/coming-soon)
 <!-- BLOG-POST-LIST:END -->
 
 ## A quote from the Master
